@@ -16,7 +16,7 @@ class Flight_Bot:
         print('initiating the bot...')
 
         self.YOUR_HOTMAIL_EMAIL =  'larry.prestosa@gmail.com'
-        self.YOURPASSWORD =  'mindful1@gmail'
+
         self.YOUR_OTHER_EMAIL =  'larry.prestosa@gmail.com'
         YOUR_CHROME_DRIVER_PATH =  'C:\\Users\\larry\\Downloads'
         chromedriver_path = YOUR_CHROME_DRIVER_PATH + '/chromedriver_win32/chromedriver.exe'

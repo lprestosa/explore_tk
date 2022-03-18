@@ -1,5 +1,10 @@
 # Tkinter Exploration
 
+## Github
++ https://github.com/lprestosa/explore_tk
++ 2022-03-17
+
+
 ## Techbooks
 
 [l1]: https://subscription.packtpub.com/book/application_development/9781788627481/1/ch01lvl1sec16/getting-text-input
