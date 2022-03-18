@@ -1,5 +1,6 @@
 # frontend of the app
 from tkinter import *
+
 from app1_db import Database
 
 db = Database("app1.db")
@@ -58,8 +59,9 @@ def add_record():
                       en_cin.get(), en_ccn.get())
             student_list.delete(0, END)
             student_list.insert(END, (
-            en_date.get(), en_sname.get(), en_grade.get(), en_class.get(), en_pname.get(), en_psign.get(), en_cin.get(),
-            en_ccn.get()))
+                en_date.get(), en_sname.get(), en_grade.get(), en_class.get(), en_pname.get(), en_psign.get(),
+                en_cin.get(),
+                en_ccn.get()))
             e1.delete(0, END)
             e2.delete(0, END)
             e3.delete(0, END)
@@ -108,14 +110,14 @@ window.wm_title("Chromebook Agreement")
 
 # GUI Components
 #  Labels
-lb_title = Label(window, text="Public School, Chromebook Agreement".upper())
+lb_title = Label(window, text="lb_title here".upper())
 lb_title.grid(row=0, column=0, columnspan=4, pady=15)
 
-lb_info = Label(window, text="By signing below, the student and his/her parent/guardian agree to follow and agree:")
+lb_info = Label(window, text="ln_info text here")
 lb_info.grid(row=1, column=0, columnspan=4)
 
 lb_explanation = Label(window,
-                       text="- All policy and procedures as identified in the student handbook and acceptable use policy.\n\n- The 1:1 Handbook policy and procedures,that Public School owns the Chromebook,software, \nand issued perpherals.\n\n- If the student ceases to be enrolled in Public School, the student/parents will return the Chromebook \nin good working order or pay the full $200.00 replacement cost of the device. \n\n- The student will immediately report any problems or damage of the Chromebook \nto a member of the Public School admin team. \n\n- In no event shall Public School be held liable to any claim of damage,negligence, or breach of duty.")
+                       text="lb_explanation text here")
 lb_explanation.grid(row=2, column=0, columnspan=4)
 
 lb_ps = Label(window, text="CIN: Chromebook Identification Number/Make, CCN: Chromebook Charger Number")
@@ -216,5 +218,5 @@ sb1.configure(command=student_list.yview)
 # get the selected row from Listox to use Delete and Update Commands
 student_list.bind('<<ListboxSelect>>', selected_row)
 
-window.resizable(0, 0)
+window.resizable(0,0)
 window.mainloop()
