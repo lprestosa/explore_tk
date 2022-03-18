@@ -15,9 +15,9 @@ class Flight_Bot:
     def __init__(self):
         print('initiating the bot...')
 
-        self.YOUR_HOTMAIL_EMAIL =  'larry.prestosa@gmail.com'
+        self.YOUR_HOTMAIL_EMAIL = ''
 
-        self.YOUR_OTHER_EMAIL =  'larry.prestosa@gmail.com'
+        self.YOUR_OTHER_EMAIL =  ''
         YOUR_CHROME_DRIVER_PATH =  'C:\\Users\\larry\\Downloads'
         chromedriver_path = YOUR_CHROME_DRIVER_PATH + '/chromedriver_win32/chromedriver.exe'
         # Full path and file (r'C:\\Users\\larry\\Downloads\\chromedriver_win32\\chromedriver.exe')
