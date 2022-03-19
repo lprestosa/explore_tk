@@ -1,4 +1,4 @@
-"""
+﻿"""
 https://github.com/PacktPublishing/Tkinter-GUI-Programming-by-Example/blob/master/Chapter07/Ch7/texteditor.py
 """
 
