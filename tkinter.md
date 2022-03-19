@@ -7,8 +7,28 @@
 
 ## Techbooks
 
-[l1]: https://subscription.packtpub.com/book/application_development/9781788627481/1/ch01lvl1sec16/getting-text-input
-**[Tkinter Gui Programming By Example][l1]**
+[l1]: https://subscription.packtpub.com/book/application_development/9781788627481/5
+**[Tkinter Gui Programming By Example][l1]**  
+Chapter 5 - Creating a Higly Cutomizable Editor
+C:\py\proj\wikipedia\explore_tk
+```
+  app6_texteditor.py     - main
+    from app6_textarea import TextArea
+    from app6_linenumbers import LineNumbers
+    from app6_highlighter import Highlighter
+    from app6_findwindow import FindWindow
+    from app6_colorchooser import colorChooser
+    from app6_fontchooser import FontChooser
+```
+
+
+[l4]: https://subscription.packtpub.com/book/web-development/9781788622301/5
+**[Tkinter GUI Application Development Cookbook][l1]**  
+Book Chapter 5 - Object oriented programming and MVC  
+Github Repository:   
+https://github.com/PacktPublishing/Tkinter-GUI-Application-Development-Cookbook/tree/master/Chapter05/code
+
+
 
 ## Articles
 
